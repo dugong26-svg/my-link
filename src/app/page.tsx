@@ -12,19 +12,32 @@ export default function Home() {
           김희진
         </h1>
 
+        {/* 직무 / 역할 타이틀 */}
+        <p className="mt-1.5 text-xs font-semibold tracking-wider text-blue-600 uppercase dark:text-blue-400">
+          Frontend Developer
+        </p>
+
         {/* 소개글 */}
         <p className="mt-3 text-sm leading-relaxed text-zinc-600 dark:text-zinc-400">
-          안녕하세요. 바이브 코딩에 관심이 많은 대학생입니다.
+          사용자 중심의 경험과 지속 가능한 코드를 고민하는 개발자입니다.
+          <br />
+          새로운 기술을 탐구하고, 아이디어를 완성도 높은 웹 서비스로 구현하는 과정을 즐깁니다.
         </p>
 
         {/* 심플한 구분선 및 링크 준비 섹션 */}
         <div className="mt-6 border-t border-zinc-100 pt-6 dark:border-zinc-800">
-          <div className="flex justify-center gap-2">
+          <div className="flex flex-wrap justify-center gap-1.5">
             <span className="inline-flex items-center rounded-full bg-blue-50 px-3 py-1 text-xs font-medium text-blue-700 dark:bg-blue-950/50 dark:text-blue-300">
-              #바이브코딩
+              #Frontend
+            </span>
+            <span className="inline-flex items-center rounded-full bg-indigo-50 px-3 py-1 text-xs font-medium text-indigo-700 dark:bg-indigo-950/50 dark:text-indigo-300">
+              #Next.js
+            </span>
+            <span className="inline-flex items-center rounded-full bg-sky-50 px-3 py-1 text-xs font-medium text-sky-700 dark:bg-sky-950/50 dark:text-sky-300">
+              #TypeScript
             </span>
             <span className="inline-flex items-center rounded-full bg-zinc-100 px-3 py-1 text-xs font-medium text-zinc-700 dark:bg-zinc-800 dark:text-zinc-300">
-              #대학생
+              #UX/UI
             </span>
           </div>
         </div>
